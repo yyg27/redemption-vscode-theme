@@ -1,0 +1,17 @@
+{
+    "name": "redemption-vscode-theme",
+    "displayName": "Redemption Theme",
+    "description": "Outlaws, gunsmoke and worn leather from the Wild West.",
+    "version": "0.1.0",
+    "publisher": "yyg27",
+    "license": "MIT",
+    "repository": {"type": "git", "url": "https://github.com/yyg27/redemption-vscode-theme"},
+    "engines": {"vscode": "^1.70.0"},
+    "categories": ["Themes"],
+    "keywords": ["theme", "dark", "western", "redemption", "paletti"],
+    "contributes": {
+        "themes": [
+            {"label": "Redemption", "uiTheme": "vs-dark", "path": "./themes/redemption-color-theme.json"}
+        ]
+    }
+}
